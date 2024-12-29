@@ -33,7 +33,7 @@ class Raven {
         this.directoinY = Math.random() * 5 - 2.5;
         this.marketForDeletion = false;
         this.image = new Image();
-        this.image.src = '/point and shoot game/raven.png';
+        this.image.src = 'raven.png';
         this.frame = 0;
         this.maxFrame = 4;
         this.timeSinceFlap = 0;
@@ -89,7 +89,7 @@ let explosions = [];
 class Explosions {
     constructor(x, y, size) {
         this.image = new Image();
-        this.image.src = '/point and shoot game/boom.png';
+        this.image.src = 'boom.png';
         this.spriteWidth = 200;
         this.spriteHeight = 179;
         this.x = x;
@@ -97,7 +97,7 @@ class Explosions {
         this.size = size;
         this.frame = 0;
         this.audio = new Audio();
-        this.audio.src = '/point and shoot game/laser_shooting_sfx.wav';
+        this.audio.src = 'laser_shooting_sfx.wav';
         this.timeSinceLastFrame = 0;
         this.frameInterval = 190;
         this.marketForDeletion = false;
